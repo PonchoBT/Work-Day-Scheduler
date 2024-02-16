@@ -8,7 +8,7 @@ The Work-Day-Scheduler is a web application designed to help you organize your w
 - CSS
 - JavaScript
 - [jQuery](https://jquery.com/)
-- [Moment.js](https://momentjs.com/)
+- [Day.js](https://day.js.org/)
 
 ## Usage
 
