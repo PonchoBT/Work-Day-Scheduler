@@ -40,17 +40,17 @@ $(document).ready(function () {
     localStorage.setItem("time block " + targetTimeBlock, $targetText.val());
 
     // Show modal
-    $("#modalGuardado").css("display", "block");
+    $("#modalSave").css("display", "block");
     // Hide modal automatically after 3 seconds
     setTimeout(function () {
-      $("#modalGuardado").css("display", "none");
+      $("#modalSave").css("display", "none");
     }, 2000);
   });
 
   // Close the modal if the user clicks out of it
   $(window).click(function (event) {
-    if ($(event.target).is("#modalGuardado")) {
-      $("#modalGuardado").css("display", "none");
+    if ($(event.target).is("#modalSave")) {
+      $("#modalSave").css("display", "none");
     }
   });
 
